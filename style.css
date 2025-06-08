@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0b0b0b;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+ul {
+  list-style-type: square;
+  text-align: left;
+  margin-left: 200px;
+}
+
+.contact {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.contact h2 {
+  color: #0d0e0e;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact p {
+  font-size: 18px;
+  line-height: 1;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0077cc;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-top: 15px;
+}
+
+.btn:hover {
+  background-color: #161717;
+  transform: scale(1.05);
+}
+
+.social-links {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #0077b5;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-icon {
+  width: 40px;
+  height: 30px;
+  transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+}
+
+.fa-linkedin {
+  color: #0077b5;
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+
+.fa-linkedin:hover {
+  transform: scale(1.2);
+}
+
+.linkedin-btn {
+  background-color: #000000;
+  margin-top: 15px;
+}
+
+.linkedin-btn:hover {
+  background-color: #0077b5;
+}
+
+.linkedin-icon {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
